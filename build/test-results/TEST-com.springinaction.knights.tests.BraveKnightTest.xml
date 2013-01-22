@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" hostname="Steves-MacBook-Pro.local" name="com.springinaction.knights.tests.BraveKnightTest" tests="1" time="0.173" timestamp="2013-01-22T23:16:31">
-  <properties />
-  <testcase classname="com.springinaction.knights.tests.BraveKnightTest" name="knightShouldEmbarkOnQuest" time="0.118" />
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
