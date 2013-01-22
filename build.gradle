@@ -1,9 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-version = "1.0"
-group = "com.springinaction.knights"
-mainClasName = "com.springinaction.knights.KnightMain"
+version = '1.0'
+group = 'com.springinaction.knights'
+
+mainClassName = "com.springinaction.knights.KnightMain"
 
 repositories {
 	mavenCentral()
