@@ -1,4 +1,4 @@
-package com.springinaction.knights;
+package com.springinaction.knights.tests;
 
 import static org.mockito.Mockito.*;
 
@@ -10,7 +10,7 @@ class BraveKnightTest {
 	public void knightShouldEmbarkOnQuest() throws QuestException {
 		Quest mockQuest = mock(Quest.class);
 
-		BraveKnight knight = new BraveKinght(mockQuest);
+		BraveKnight knight = new BraveKnight(mockQuest);
 		knight.embarkOnQuest();
 
 		verify(mockQuest, times(1)).embark();
