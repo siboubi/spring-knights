@@ -1,11 +1,10 @@
-package com.springinaction.knights.tests;
+package com.springinaction.knights;
 
 import static org.mockito.Mockito.*;
 
 import org.junit.Test;
-import com.springinaction.knights.*;
 
-class BraveKnightTest {
+public class BraveKnightTest {
 	@Test
 	public void knightShouldEmbarkOnQuest() throws QuestException {
 		Quest mockQuest = mock(Quest.class);
