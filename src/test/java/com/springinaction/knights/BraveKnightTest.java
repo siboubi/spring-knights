@@ -3,6 +3,7 @@ package com.springinaction.knights;
 import static org.mockito.Mockito.*;
 
 import org.junit.Test;
+import com.springinaction.knights.*;
 
 class BraveKnightTest {
 	@Test
