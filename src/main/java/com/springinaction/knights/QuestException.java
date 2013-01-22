@@ -1,5 +1,5 @@
 package com.springinaction.knights;
 
-class QuestException extends Exception {
+public class QuestException extends Exception {
 	
 }
